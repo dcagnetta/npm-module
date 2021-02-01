@@ -1,10 +1,16 @@
 {
   "name": "npm-module",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Create and Package NPM Module Test",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dcagnetta/npm-module.git"
   },
   "keywords": [],
   "author": "Dillan Cagnetta",
@@ -14,5 +20,8 @@
   },
   "devDependencies": {
     "typescript": "^4.1.3"
-  }
+  },
+  "files": [
+    "dist/**/*"
+  ]
 }
