@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/dcagnetta/npm-module.git"
   },
-  "keywords": [],
+  "keywords": ["NPM", "Module"],
   "author": "Dillan Cagnetta",
   "license": "ISC",
   "dependencies": {
